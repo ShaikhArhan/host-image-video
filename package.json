@@ -1,0 +1,27 @@
+{
+  "name": "live_image_store",
+  "version": "1.0.0",
+  "description": "hosting the images",
+  "homepage": "https://github.com/ShaikhArhan/host-image#readme",
+  "bugs": {
+    "url": "https://github.com/ShaikhArhan/host-image/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaikhArhan/host-image.git"
+  },
+  "license": "ISC",
+  "author": "arhan shaikh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cloudinary": "^2.8.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "multer": "^2.0.2"
+  }
+}
